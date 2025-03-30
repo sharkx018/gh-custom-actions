@@ -16,4 +16,4 @@ outputs:
     description: The url of the deployed site
 runs: 
   using: 'docker'
-  images: 'Dockerfile'
+  image: 'Dockerfile'
