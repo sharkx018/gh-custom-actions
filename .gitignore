@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+/.github/actions/deploy-s3-javascript/node_modules
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
