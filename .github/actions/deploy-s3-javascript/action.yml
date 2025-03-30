@@ -13,7 +13,7 @@ inputs:
     required: true
 outputs:
   website-url: 
-  description: The url of the deployed site
+    description: The url of the deployed site
 runs: 
   using: 'node16'
   main: 'main.js'
