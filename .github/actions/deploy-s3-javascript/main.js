@@ -11,7 +11,7 @@ function run(){
 
     //upload s3
     const s3Uri = `s3://${bucket}`
-    core.exec(`aws s3 sync ${distFolder} ${s3Uri}  --region ${bucketRegion}`)
+    exec.exec(`aws s3 sync ${distFolder} ${s3Uri}  --region ${bucketRegion}`)
 
 }
 
